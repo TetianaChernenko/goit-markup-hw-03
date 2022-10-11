@@ -13,46 +13,39 @@
     />
     <link
       rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <div class="container">
-        <div class="flex-header">
-          <nav class="site-nav">
-            <a class="logo" href="/"
-              ><span class="logo-wrap">Web</span>Studio</a
-            >
-            <ul class="nav">
-              <li>
-                <a href="./index.html" class="nav-link">Студія</a>
-              </li>
-              <li>
-                <a href="./portfolio.html" class="nav-link current"
-                  >Портфоліо</a
-                >
-              </li>
-              <li>
-                <a href="" class="nav-link">Контакти</a>
-              </li>
-            </ul>
-          </nav>
-
-          <ul class="contact">
+    <header class="header">
+      <div class="container flex-header">
+        <nav class="site-nav">
+          <a class="logo" href="/"><span class="logo-wrap">Web</span>Studio</a>
+          <ul class="nav">
             <li>
-              <a href="mailto:info@devstudio.com" class="contact-link"
-                >info@devstudio.com</a
-              >
+              <a href="./index.html" class="nav-link">Студія</a>
             </li>
             <li>
-              <a href="tel:+380961111111" class="contact-link"
-                >+38 096 111 11 11</a
-              >
+              <a href="./portfolio.html" class="nav-link current">Портфоліо</a>
+            </li>
+            <li>
+              <a href="" class="nav-link">Контакти</a>
             </li>
           </ul>
-        </div>
+        </nav>
+        <ul class="contact">
+          <li>
+            <a href="mailto:info@devstudio.com" class="contact-link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="contact-link"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
       </div>
     </header>
     <main>
@@ -196,9 +189,9 @@
         <a class="logo-footer" href="/"
           ><span class="logo-wrap">Web</span>Studio</a
         >
-        <address class="address">
-          <ul>
-            <li>
+        <address>
+          <ul class="address">
+            <li class="item">
               <a
                 class="physikal-address"
                 href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
@@ -207,12 +200,12 @@
                 >м. Київ, пр-т Лесі Українки, 26</a
               >
             </li>
-            <li>
-              <a class="address-footer item" href="mailto:info@devstudio.com"
+            <li class="item">
+              <a class="address-footer" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="item">
               <a class="address-footer" href="tel:+380961111111"
                 >+38 096 111 11 11</a
               >
